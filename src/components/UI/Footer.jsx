@@ -5,7 +5,7 @@ import logo from '../../images/logo.png'
 export default function Footer() {
   return (
 
-    <div className='footer' style={{ color: '#fff' }}>
+    <div className='footer' >
 
       <img
         src={logo}

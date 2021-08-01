@@ -6,7 +6,7 @@ import abood from '../images/abood.jpg';
 export default function Home() {
   return (
     <React.Fragment>
-      <Jumbotron>
+      <Jumbotron style={{ backgroundColor: ' #fff' }}>
         <br />
         <Row>
           <Col sm={8}>
@@ -15,6 +15,11 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
               nemo et voluptatem nobis possimus nihil.
             </h3>
+
+
+            <Cube />
+
+            <br />
             <p>
               This is a simple hero unit, a simple jumbotron-style component for
               calling extra attention to featured content or information. Lorem
@@ -23,10 +28,6 @@ export default function Home() {
               placeat ea itaque modi corrupti corporis nam voluptas aut
               reprehenderit eaque culpa.
             </p>
-
-            <Cube />
-
-            <br />
           </Col>
 
           <Col sm={4}>

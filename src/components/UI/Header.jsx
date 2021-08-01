@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div>
       <Navbar expand='lg' bg='light' >
-        <Navbar.Brand href='#home'>
+        <Navbar.Brand href='#home' >
           <img
             src={logo}
             widtth='60'
@@ -17,7 +17,7 @@ export default function Header() {
           />
 
         </Navbar.Brand>
-        <h1><span style={{ color: '#0000FF' }}>Tanina</span><spam style={{ color: '#A58A41' }}>Aframi</spam></h1>
+        <h1 className='hefo'><strong style={{ color: '#001c44' }}>Tanina</strong><strong style={{ color: '#Ecbd02' }}>Aframi</strong></h1>
         <br />
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
