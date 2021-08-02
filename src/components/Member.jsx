@@ -7,10 +7,12 @@ import pap from '../images/pap.jpg';
 import comp from '../images/comp.jpg';
 import kastel from '../images/kastel.jpg';
 import HeaderImg from './UI/HeaderImg';
+import Header from './UI/Header';
 
 export default function Member() {
   return (
     <div>
+      <Header />
       <Container>
         <HeaderImg />
       </Container>

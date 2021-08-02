@@ -17,29 +17,29 @@ const products = [
     {
         _id: '2',
         name: 'Airnes',
-        image: 'https://i.picsum.photos/id/89/200/200.jpg?hmac=urh6JbqBxFLcQQEPfUQ23bUlEH7vg3qqqUOts86_LLI',
+        image: '/images/mask.jpg',
         description:
             'lorem jxvdvdvv',
         brand: 'Apple',
         category: 'Electronics',
         price: 78.5,
-        countInStock: 8,
-        rating: 2.7,
-        numReviews: 7,
+        countInStock: 88,
+        rating: 4.5,
+        numReviews: 147,
 
     },
     {
         _id: '3',
         name: ' blutooth headp',
-        image: '/images/2.jpg',
+        image: '/images/cup1.jpg',
         description:
             'lorem jxvdvdvv',
         brand: 'Apple',
         category: 'Electronics',
         price: 8.8,
         countInStock: 9,
-        rating: 1.6,
-        numReviews: 5,
+        rating: 4.9,
+        numReviews: 155,
 
     },
     {
@@ -52,36 +52,36 @@ const products = [
         category: 'Electronics',
         price: 44.5,
         countInStock: 4,
-        rating: 4.3,
-        numReviews: 4,
+        rating: 4.8,
+        numReviews: 445,
 
     },
     {
         _id: '5',
         name: ' headphones',
-        image: '/images/5.jpg',
+        image: '/images/papcup.jpg',
         description:
             'lorem jxvdvdvv',
         brand: 'Apple',
         category: 'Electronics',
         price: 55.5,
         countInStock: 5,
-        rating: 2.3,
-        numReviews: 7,
+        rating: 4.0,
+        numReviews: 147,
 
     },
     {
         _id: '6',
         name: 'Airphone headphones',
-        image: '/images/2.jpg',
+        image: '/images/kastel.jpg',
         description:
             'lorem jxvdvdvv',
         brand: 'Apple',
         category: 'Electronics',
         price: 7.5,
         countInStock: 7,
-        rating: 7.3,
-        numReviews: 7,
+        rating: 3.5,
+        numReviews: 725,
 
     },
 

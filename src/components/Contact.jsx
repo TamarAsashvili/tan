@@ -1,18 +1,13 @@
 import React from 'react';
 import '../css/main.css';
 import { Card, Container, Row, Col } from 'react-bootstrap';
-import HomeScreen from './HomeScreen';
+import Header from './UI/Header';
 
 export default function Contact() {
   return (
     <div>
-
-      <HomeScreen />
-
+      <Header />
       Contact page
-
-
-
       <br />
       <hr />
       <Container>

@@ -2,10 +2,12 @@ import React from 'react';
 import { Jumbotron, Nav, Image, Col, Row } from 'react-bootstrap';
 import Cube from './UI/Cube';
 import abood from '../images/abood.jpg';
+import Header from './UI/Header';
 
 export default function Home() {
   return (
     <React.Fragment>
+      <Header />
       <Jumbotron style={{ backgroundColor: ' #fff' }}>
         <br />
         <Row>

@@ -28,7 +28,11 @@ const Rating = ({ value, text, color }) => {
 
 
 Rating.defaultProps = {
-    color: '#f8e825'
+    color: '#f8e825',
+
+    margin: '0.1rem',
+
+
 }
 
 Rating.prototypes = {

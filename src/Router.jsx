@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Home from './components/Home';
 import NotFound from './components/NotFound';
 import ProductScreen from './components/ProductScreen';
+import Gallery from './components/Gallery';
 
 export default class MyRoutes extends React.Component {
   render() {
@@ -13,7 +14,8 @@ export default class MyRoutes extends React.Component {
         <Route exact path='/' component={Home} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/member' component={Member} />
-        <Route exact path='/product/:id' component={ProductScreen} />
+        <Route path='/product/:id' component={ProductScreen} />
+        <Route path='/product/:id?' component={Gallery} />
         <Route path='*' component={NotFound} />
       </Switch>
     );
