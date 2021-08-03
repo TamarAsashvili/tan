@@ -18,7 +18,7 @@ export default function Header() {
 
         </Navbar.Brand>
         <h1 className='hefo'><strong style={{ color: '#001c44' }}>Tanina</strong><strong style={{ color: '#Ecbd02' }}>Aframi</strong></h1>
-        <br />
+
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='mr-auto'>

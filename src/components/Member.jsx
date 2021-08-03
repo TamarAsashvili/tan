@@ -21,7 +21,7 @@ export default function Member() {
           <Col sm>
             <Card border='info' text='dark'>
               <Card.Header>Address</Card.Header>
-              <Card.Img variant='top' src={image3} className='shrink' />
+              <Card.Img variant='top' src={image3} />
               <Card.Body>
                 <Card.Title>Info Card Title</Card.Title>
                 <Card.Text>
@@ -34,12 +34,11 @@ export default function Member() {
           <Col sm>
             <Card border='info' text='dark'>
               <Card.Header>map</Card.Header>
-              <Card.Img variant='top' src={chanta} className='shrink' />
+              <Card.Img variant='top' src={chanta} />
               <Card.Body>
                 <Card.Title>Info Card Title</Card.Title>
                 <Card.Text>
                   magnam veritatis in nihil atque dolorum cumque, perferendis
-
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -47,12 +46,11 @@ export default function Member() {
           <Col sm>
             <Card border='info' text='dark'>
               <Card.Header>map</Card.Header>
-              <Card.Img variant='top' src={bag} className='shrink' />
+              <Card.Img variant='top' src={bag} />
               <Card.Body>
                 <Card.Title>Info Card Title</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
-
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -62,7 +60,7 @@ export default function Member() {
           <Col sm>
             <Card border='info' text='dark'>
               <Card.Header>Address</Card.Header>
-              <Card.Img variant='top' src={pap} className='shrink' />
+              <Card.Img variant='top' src={pap} />
               <Card.Body>
                 <Card.Title>Info Card Title</Card.Title>
                 <Card.Text>
@@ -75,12 +73,11 @@ export default function Member() {
           <Col sm>
             <Card border='info' text='dark'>
               <Card.Header>map</Card.Header>
-              <Card.Img variant='top' src={comp} className='shrink' />
+              <Card.Img variant='top' src={comp} />
               <Card.Body>
                 <Card.Title>Info Card Title</Card.Title>
                 <Card.Text>
                   magnam veritatis in nihil atque dolorum cumque, perferendis
-
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -88,18 +85,16 @@ export default function Member() {
           <Col sm>
             <Card border='info' text='dark'>
               <Card.Header>map</Card.Header>
-              <Card.Img variant='top' src={kastel} className='shrink' />
+              <Card.Img variant='top' src={kastel} />
               <Card.Body>
                 <Card.Title>Info Card Title</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up
-
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
         </Row>
-
       </Container>
       <hr />
       <hr />

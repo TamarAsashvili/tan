@@ -31,22 +31,14 @@ export default function Contact() {
                 <Card.Title>email: taninaaframi@gmail.com
                 </Card.Title>
                 <Card.Text>
-
-
-                  <br />       Mobile: after
-                  coming soon
-
+                  Mobile: after coming soon
                 </Card.Text>
               </Card.Body>
             </Card>
             <br />
           </Col>
-
         </Row>
-
-
       </Container>
-
     </div>
   );
 }

@@ -17,10 +17,7 @@ export default function Home() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
               nemo et voluptatem nobis possimus nihil.
             </h3>
-
-
             <Cube />
-
             <br />
             <p>
               This is a simple hero unit, a simple jumbotron-style component for
@@ -31,7 +28,6 @@ export default function Home() {
               reprehenderit eaque culpa.
             </p>
           </Col>
-
           <Col sm={4}>
             <Image src={abood} thumbnail />
 
