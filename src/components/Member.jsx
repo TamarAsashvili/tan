@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import HeaderImg from './UI/HeaderImg';
 import Header from './UI/Header';
 
 export default function Member() {
@@ -8,7 +7,7 @@ export default function Member() {
     <div>
       <Header />
       <Container>
-        <HeaderImg />
+        <h1>company members</h1>
       </Container>
       <hr />
       <hr />
