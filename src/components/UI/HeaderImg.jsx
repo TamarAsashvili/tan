@@ -12,7 +12,7 @@ export default function HeaderImg() {
                     <Image
                         className="d-block w-100"
                         src='https://picsum.photos/id/13/800/400?text=First slide&bg=282c34'
-                        thumbnail
+
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -25,7 +25,7 @@ export default function HeaderImg() {
                         className="d-block w-100"
                         src="https://picsum.photos/id/83/800/400?text=Second slide&bg=282c34"
                         alt="Second slide"
-                        thumbnail
+
                     />
 
                     <Carousel.Caption>
@@ -38,7 +38,7 @@ export default function HeaderImg() {
                         className="d-block w-100"
                         src="https://picsum.photos/id/45/800/400?text=Third slide&bg=20232a"
                         alt="Third slide"
-                        thumbnail
+
                     />
 
                     <Carousel.Caption>
@@ -51,7 +51,7 @@ export default function HeaderImg() {
                         className="d-block w-100"
                         src="https://picsum.photos/id/5/800/400?text=Third slide&bg=20232a"
                         alt="Third slide"
-                        thumbnail
+
                     />
 
                     <Carousel.Caption>
